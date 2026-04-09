@@ -74,6 +74,34 @@
       margin: 0 auto;
       padding: 60px 20px;
     }
+
+    .events-schedule {
+      list-style: none;
+    }
+
+    .events-schedule li {
+      padding: 20px 0;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .events-schedule li:last-child {
+      border-bottom: none;
+    }
+
+    .event-date {
+      font-size: 0.9rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #0f3460;
+      margin-bottom: 4px;
+    }
+
+    .event-name {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #1a1a2e;
+    }
   </style>
 </head>
 <body>
@@ -87,6 +115,16 @@
   </header>
 
   <main>
+    <ul class="events-schedule">
+      <li>
+        <div class="event-date">April 9&ndash;12, 2026</div>
+        <div class="event-name">Invisible Threads</div>
+      </li>
+      <li>
+        <div class="event-date">April 9&ndash;25, 2026</div>
+        <div class="event-name">My Name Is Mimosa &mdash; East Window Gallery</div>
+      </li>
+    </ul>
   </main>
 
 </body>
